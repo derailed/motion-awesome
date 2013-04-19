@@ -1,6 +1,6 @@
 # MotionAwesome - as if more awesomeness was needed...
 
-![MotionAwesome Web Screenshot](http://derailed.github.io/motion-awesome/assets/a.png)
+![MotionAwesome Screenshots](http://derailed.github.io/motion-awesome/assets/d.png)
 
 FontAwesome (http://fortawesome.github.io/Font-Awesome) is a really cool way to bring in some 
 low cost bang! to your web applications. 
