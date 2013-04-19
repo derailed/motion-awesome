@@ -8,5 +8,6 @@ Motion::Project::App.setup do |app|
     app.files.unshift(file)
   end
   FileUtils.cp( File.join( LIB_DIR, %w(assets fontawesome-webfont.ttf) ), './resources/' )
+  FileUtils.cp( File.join( LIB_DIR, %w(assets fontawesome.plist) ), './resources/' )  
   app.fonts << "fontawesome-webfont.ttf"  
 end
