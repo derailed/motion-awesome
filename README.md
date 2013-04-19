@@ -1,13 +1,13 @@
 # MotionAwesome - as if more awesomeness was needed...
 
+![MotionAwesome Web Screenshot](http://derailed.github.io/motion-awesome/assets/a.png)
+
 FontAwesome (http://fortawesome.github.io/Font-Awesome) is a really cool way to bring in some 
 low cost bang! to your web applications. 
 Following on that lead, MotionAwesome brings similar awesomeness in the RubyMotion world...
  
  
 ## RM star-gizzards ;-)
-
-![MotionAwesome Web Screenshot](http://derailed.github.io/motion-awesome/assets/a.png)
 
 ```
 > git clone https://github.com/derailed/motion-awesome.git
