@@ -64,18 +64,20 @@ end
 
 With MotionAwesome you have access to all the latest icons available on the FontAwesome site.
 
-In order to specify the icon name you can must use symbol for the name minus the 'icon-' prefix and
+In order to specify the icon name you can use a symbol for the name minus the 'icon-' prefix and
 sub out the '-' with '_'. Simple!
 
 ```
-FontAwesome => MotionAwesome
-icon-flag => :flag
+FontAwesome     => MotionAwesome
+icon-flag       => :flag
 icon-star-empty => :star_empty
 ```
 
 ### Options
 
-Awesomization is currently in effect for UILabel and UIButton. The method signatures following this strategy
+Awesomization is currently in effect for UILabel and UIButton. 
+
+The method signatures following this strategy:
 
 ```ruby
  awesome_label  = label( :icon_name, opts ) do {|comp| ... }
@@ -90,9 +92,10 @@ Options are as follows:
 + text:  prepends some text to your decorated label or button.
 + color: sets the icon color. If this is not set the icon color will match the text color if specified.
 
+
 ## ATTA BOYS!
 
-This gem was inspired by Hiroshi HORIKI(@pchw) https://github.com/pchw/fontawesome
+This gem was inspired by Hiroshi Horiki(@pchw) https://github.com/pchw/fontawesome
 
 
 ## Contact
