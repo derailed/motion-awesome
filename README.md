@@ -1,12 +1,16 @@
-# MotionAwesome - As if more awesomeness was needed...
+# MotionAwesome - as if more awesomeness was needed...
 
-FontAwesome (http://fortawesome.github.io/Font-Awesome) is a really cool way to bring in some low cost Bang! to your web applications. Following on that lead MotionAwesome brings a similar awesomeness to your RubyMotion apps.
+FontAwesome (http://fortawesome.github.io/Font-Awesome) is a really cool way to bring in some 
+low cost bang! to your web applications. 
+Following on that lead, MotionAwesome brings similar awesomeness in the RubyMotion world...
  
 ## For the RM star gazers...
 
+```
 git clone https://github.com/derailed/motion-awesome.git
 cd motion-awesome
 rake
+```
 
 ## Installation
 
