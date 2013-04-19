@@ -1,6 +1,8 @@
 module MotionAwesome
   module_function 
-      
+  
+  class InvalidAwesomeIconError < RuntimeError; end
+  
   def button( icon, options={}, &block )
     opts = parse_options( icon, options )
     comp = UIButton.buttonWithType( map_types( opts.type? ? opts.type : nil ) )    
@@ -21,29 +23,17 @@ module MotionAwesome
   def font( size )
     UIFont.fontWithName( 'FontAwesome', size:size )
   end
-        
-  private
-
-  def button_types
-    @button_types ||=
-      Map( custom:      UIButtonTypeCustom,
-           rounded:     UIButtonTypeRoundedRect )
-  end
-     
-  def map_types( type )
-    button_types.get(type) {UIButtonTypeRoundedRect}
-  end
-
-  def xform_icon( icon )
-    icon.to_s.gsub( /_/, '-')
-  end
   
   def parse_options( icon, opts )    
     options        = Map( opts.merge( icon: xform_icon(icon) ) )
     options[:size] = UIFont.systemFontSize unless options[:size]
     options
   end
-  
+
+  def xform_icon( icon )
+    icon.to_s.gsub( /_/, '-')
+  end
+
   def attributed_text( opts )
     awesome_attrs = Map(NSFontAttributeName, font(opts[:size]) )
     awesome_attrs[NSForegroundColorAttributeName] = opts.color if opts.color?
@@ -54,13 +44,17 @@ module MotionAwesome
       attrs.setAttributes( awesome_attrs, range:range )
     end
   end
-    
+
   def hex_for_icon( icon )
     index = plist["icon-#{icon}"]
-    raise "Unable to find icon representation for `#{icon.inspect}" unless index
+    raise InvalidAwesomeIconError, "Unable to find icon representation for `#{icon.inspect}" unless index
     index.hex.chr(Encoding::UTF_8)
   end
-    
+
+  def map_types( type )
+    button_types.get(type) {UIButtonTypeRoundedRect}
+  end
+
   def plist
     @plist ||= begin
       NSMutableDictionary.dictionaryWithContentsOfFile(
@@ -68,4 +62,10 @@ module MotionAwesome
       )
     end
   end
+
+  def button_types
+    @button_types ||=
+      Map( custom:      UIButtonTypeCustom,
+           rounded:     UIButtonTypeRoundedRect )
+  end 
 end
