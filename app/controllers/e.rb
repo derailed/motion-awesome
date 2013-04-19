@@ -1,6 +1,6 @@
 class E < Z
   def viewDidLoad       
-    @comp = button( :github, size:35, text:%q{Fork it!}, color:0xD6FF18.uicolor ) do |button|
+    @comp = button( :github, size:35, text:%q{Fork it!}, color:0xD6FF18.uicolor, type: :custom ) do |button|
       button.titleLabel.textColor = 0x2D31CE.uicolor
       button.titleLabel.font      = UIFont.fontWithName( "Vermin Vibes Out Of Ink", size:55 )
     

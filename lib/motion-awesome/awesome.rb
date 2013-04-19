@@ -27,15 +27,14 @@ module MotionAwesome
   def button_types
     @button_types ||=
       Map( custom:      UIButtonTypeCustom,
-           rounded:     UIButtonTypeRoundedRect,
-           disclosure:  UIButtonTypeDetailDisclosure,
-           info_light:  UIButtonTypeInfoLight,
-           info_dark:   UIButtonTypeInfoDark,
-           contact_add: UIButtonTypeContactAdd )
+           rounded:     UIButtonTypeRoundedRect )
   end
      
   def map_types( type )
-    button_types.get(type) {UIButtonTypeRoundedRect}
+puts "LOOKIN #{type.inspect}"    
+    kind = button_types.get(type) {UIButtonTypeRoundedRect}
+puts kind.inspect    
+    kind
   end
 
   def xform_icon( icon )
