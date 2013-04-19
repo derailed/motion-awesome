@@ -31,10 +31,7 @@ module MotionAwesome
   end
      
   def map_types( type )
-puts "LOOKIN #{type.inspect}"    
-    kind = button_types.get(type) {UIButtonTypeRoundedRect}
-puts kind.inspect    
-    kind
+    button_types.get(type) {UIButtonTypeRoundedRect}
   end
 
   def xform_icon( icon )
