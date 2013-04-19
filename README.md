@@ -1,0 +1,103 @@
+# MotionAwesome - As if more awesomeness was needed...
+
+FontAwesome (http://fortawesome.github.io/Font-Awesome) is a really cool way to bring in some low cost Bang! to your web applications. Following on that lead MotionAwesome brings a similar awesomeness to your RubyMotion apps.
+ 
+## For the RM star gazers...
+
+git clone https://github.com/derailed/motion-awesome.git
+cd motion-awesome
+rake
+
+## Installation
+
+```
+gem install motion-awesome
+
+or
+
+gem 'motion-awesome'
+```
+
+## Usage
+
+### Creating awesome labels
+
+```ruby
+class WannaBeCoolController < XXXController
+  include MotionAwesome
+  
+  def viewDidLoad
+    label( :flag, size: 200 ) do |label|
+      label.frame           = CGRectMake( 0, 0, 200, 200 )
+      self.view.addSubview(label) 
+    end   
+  end
+end
+```
+
+### Creating awesome buttons
+
+```ruby
+class WannaBeCoolController < XXXController
+  include MotionAwesome
+  
+  def viewDidLoad
+    button( :legal, size: 40, text:%q{Hit me!} ) do |button|
+      button.titleLabel.textColor = 0xFB3223.uicolor
+      button.titleLabel.font      = UIFont.fontWithName( 'GillSans', size:30 )
+      button.frame             = CGRectMake( 0, 0, 180, 60 )
+      button.addTarget( self,
+                        action: "callback:",
+                        forControlEvents: UIControlEventTouchUpInside ) 
+      self.view.addSubview( button )  
+  end
+end
+```
+
+## The fine prints...
+
+With MotionAwesome you have access to all the latest icons available on the FontAwesome site.
+In order to specify the icon name you can use a symbol for the name minus the 'icon-' prefix and
+sub out the '-' with '_'. 
+
+So for instance FontAwesome class name: 'icon-star-empty' becomes :star_empty in MotionAwesome.
+
+Currently MotionAwesome support UILabel and UIButton. The method signatures following this strategy
+
+```ruby
+ awesome_label = label( :icon_name, opts ) do {|comp| }
+```
+
+Options are as follows:
+
++ size:  specifies the size of the icon. To size the text portion you can set the font of your liking.
+         If no size is specified the icon will be sized according to the active font size.
++ text:  prepends some text to your decorated label or button
++ color: sets the icon color. If this is not set the icon color will match the text color if specified
+
+
+## ATTA BOYS!
+
+This gem was inspired by Hiroshi HORIKI(@pchw) https://github.com/pchw/fontawesome
+
+
+## Contact
+
+Fernand Galiana
+
+- http://github.com/derailed
+- http://twitter.com/kitesurfer
+- <fernand.galiana@gmail.com>
+
+Still work in progress. So please feel to fork or contact me if you run into issues or
+just want to touch base...
+
+
+## License
+
+MotionAwesome is released under the [MIT](http://opensource.org/licenses/MIT) license.
+
+
+## History
+  + 0.0.1:
+    + Initial drop
