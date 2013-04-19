@@ -7,7 +7,7 @@ Following on that lead, MotionAwesome brings similar awesomeness in the RubyMoti
  
 ## RM star-gizzards ;-)
 
-![MotionAwesome Web Screenshot](https://raw.github.com/derailed/motion_awesome/assets/a.png)
+![MotionAwesome Web Screenshot](http://derailed.github.io/motion-awesome/assets/a.png)
 
 ```
 > git clone https://github.com/derailed/motion-awesome.git
