@@ -7,7 +7,7 @@ low cost bang! to your web applications.
 Following on that lead, MotionAwesome brings similar awesomeness in the RubyMotion world...
  
  
-## RM star-gizzards ;-)
+## For the star-gizzards ;-)
 
 ```
 > git clone https://github.com/derailed/motion-awesome.git
