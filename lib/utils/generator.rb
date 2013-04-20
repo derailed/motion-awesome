@@ -10,21 +10,17 @@ module MotionAwesome
       parser = CssParser::Parser.new
       parser.load_file!( css )
       fonts = {}
-      parser.each_selector do |selector, declarations, specificity|
+      parser.each_selector do |selector, declarations, _|
         next if selector !~ /\A.icon/
         name = selector[/\.(.*)\:before/,1]
         next unless name and name != 'icon-large'
-        hex_val = "0x#{declarations[/(f.*)"/, 1]}"
-        puts "#{name} : #{hex_val.inspect}"
-        fonts[name] = hex_val
+        fonts[name] = "0x#{declarations[/(f.*)"/, 1]}"
       end
       write( fonts )
     end
             
     def self.write( fonts )
-      File.open( plist, 'w' ) do |f|
-        f << fonts.to_plist
-      end
+      File.open( plist, 'w' ) { |f| f << fonts.to_plist }
     end
   end
 end
