@@ -8,7 +8,7 @@ Gem::Specification.new do |gem|
   gem.email         = ['fernand.galiana@gmail.com']
   gem.summary       = %{Port of the most excellent FontAwesome lib to IOS}
   gem.description   = %{Blah Blah attributions}  
-  gem.homepage      = 'https://github.com/derailed/motion-awesome'
+  gem.homepage      = 'http://derailed.github.io/motion-awesome'
   gem.files         = `git ls-files`.split($\)
   gem.test_files    = gem.files.grep(%r{^spec/})
   gem.require_paths = ['lib']
