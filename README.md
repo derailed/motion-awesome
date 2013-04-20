@@ -18,7 +18,7 @@ Following on that lead, MotionAwesome brings similar awesomeness in the RubyMoti
 ## Installation
 
 ```
-gem install 'motion-awesome'
+gem install motion-awesome
 ```
 
 ## Dependencies
@@ -109,7 +109,7 @@ Fernand Galiana
 - <fernand.galiana@gmail.com>
 
 Still work in progress. So please feel to fork or contact me if you run into issues or
-just want to touch base...
+just want to send some good vibes...
 
 
 ## License
