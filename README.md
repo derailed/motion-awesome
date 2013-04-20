@@ -95,7 +95,7 @@ Options are as follows:
 + color: sets the icon color. If this is not set the icon color will match the text color if specified.
 
 
-## ATTA BOYS!
+## ATTA BOY!
 
 This gem was inspired by Hiroshi Horiki(@pchw) https://github.com/pchw/fontawesome
 
