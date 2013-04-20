@@ -1,40 +1,52 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head>
-    <meta charset='utf-8'>
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
-
+    <title>Motion-Awesome by derailed</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/respond.js"></script>
     <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+    <!--[if lt IE 8]>
+    <link rel="stylesheet" href="stylesheets/ie.css">
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
-    <title>Motion-awesome by derailed</title>
   </head>
-
   <body>
-    <header>
-      <div class="inner">
-        <h1>Motion-awesome</h1>
-        <h2>as if more awesomeness was needed...</h2>
-        <a href="https://github.com/derailed/motion-awesome" class="button"><small>View project on</small>GitHub</a>
-      </div>
-    </header>
+      <div id="header">
+        <nav>
+          <li class="fork"><a href="https://github.com/derailed/motion-awesome">View On GitHub</a></li>
+          <li class="downloads"><a href="https://github.com/derailed/motion-awesome/zipball/master">ZIP</a></li>
+          <li class="downloads"><a href="https://github.com/derailed/motion-awesome/tarball/master">TAR</a></li>
+          <li class="title">DOWNLOADS</li>
+        </nav>
+      </div><!-- end header -->
 
-    <div id="content-wrapper">
-      <div class="inner clearfix">
-        <section id="main-content">
-          <h1>MotionAwesome</h1>
+    <div class="wrapper">
+
+      <section>
+        <div id="title">
+          <h1>Motion-Awesome</h1>
+          <p>as if more awesomeness was needed...</p>
+          <hr>
+          <span class="credits left">Project maintained by <a href="https://github.com/derailed">derailed</a></span>
+          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="http://twitter.com/#!/michigangraham">mattgraham</a></span>
+        </div>
+
+        <h1>MotionAwesome</h1>
+
+<p><img src="http://derailed.github.io/motion-awesome/assets/d.png" alt="MotionAwesome Screenshots"></p>
 
 <p>FontAwesome (<a href="http://fortawesome.github.io/Font-Awesome">http://fortawesome.github.io/Font-Awesome</a>) is a really cool way to bring in some 
 low cost bang! to your web applications. 
 Following on that lead, MotionAwesome brings similar awesomeness in the RubyMotion world...</p>
 
-<h2>RM star-gizzards ;-)</h2>
+<h2>For the star-gizzards ;-)</h2>
 
 <pre><code>&gt; git clone https://github.com/derailed/motion-awesome.git
 &gt; cd motion-awesome
@@ -43,7 +55,7 @@ Following on that lead, MotionAwesome brings similar awesomeness in the RubyMoti
 
 <h2>Installation</h2>
 
-<pre><code>gem install 'motion-awesome'
+<pre><code>gem install motion-awesome
 </code></pre>
 
 <h2>Dependencies</h2>
@@ -114,7 +126,7 @@ icon-star-empty =&gt; :star_empty
 <li>type:  :custom | :rounded. Specifies the type of UIButton to create -- For button only! - </li>
 <li>text:  prepends some text to your decorated label or button.</li>
 <li>color: sets the icon color. If this is not set the icon color will match the text color if specified.</li>
-</ul><h2>ATTA BOYS!</h2>
+</ul><h2>ATTA BOY!</h2>
 
 <p>This gem was inspired by Hiroshi Horiki(<a href="https://github.com/pchw" class="user-mention">@pchw</a>) <a href="https://github.com/pchw/fontawesome">https://github.com/pchw/fontawesome</a></p>
 
@@ -127,7 +139,7 @@ icon-star-empty =&gt; :star_empty
 <li><a href="http://twitter.com/kitesurfer">http://twitter.com/kitesurfer</a></li>
 <li><a href="mailto:fernand.galiana@gmail.com">fernand.galiana@gmail.com</a></li>
 </ul><p>Still work in progress. So please feel to fork or contact me if you run into issues or
-just want to touch base...</p>
+just want to send some good vibes...</p>
 
 <h2>License</h2>
 
@@ -142,27 +154,24 @@ just want to touch base...</p>
 <li>Initial drop</li>
 </ul>
 </li>
+<li>0.0.2:
+
+<ul>
+<li>Bug fixes and cleanup</li>
 </ul>
-        </section>
+</li>
+<li>0.0.3:
 
-        <aside id="sidebar">
-          <a href="https://github.com/derailed/motion-awesome/zipball/master" class="button">
-            <small>Download</small>
-            .zip file
-          </a>
-          <a href="https://github.com/derailed/motion-awesome/tarball/master" class="button">
-            <small>Download</small>
-            .tar.gz file
-          </a>
+<ul>
+<li>Mo' spring cleaning</li>
+</ul>
+</li>
+</ul>
+      </section>
 
-          <p class="repo-owner"><a href="https://github.com/derailed/motion-awesome"></a> is maintained by <a href="https://github.com/derailed">derailed</a>.</p>
-
-          <p>This page was generated by <a href="pages.github.com">GitHub Pages</a> using the Architect theme by <a href="http://twitter.com/jasonlong">Jason Long</a>.</p>
-        </aside>
-      </div>
     </div>
-
-  
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    
   </body>
 </html>
 
