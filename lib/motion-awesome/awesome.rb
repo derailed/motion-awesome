@@ -25,7 +25,7 @@ module MotionAwesome
   end
   
   def parse_options( icon, opts )    
-    options        = Map( opts.merge( icon: xform_icon(icon) ) )
+    options        =  MotionMap::Map[opts.merge( icon: xform_icon(icon) )]
     options[:size] = UIFont.systemFontSize unless options[:size]
     options
   end
@@ -35,7 +35,7 @@ module MotionAwesome
   end
 
   def attributed_text( opts )
-    awesome_attrs = Map(NSFontAttributeName, font(opts[:size]) )
+    awesome_attrs = MotionMap::Map[NSFontAttributeName, font(opts[:size])]
     awesome_attrs[NSForegroundColorAttributeName] = opts.color if opts.color?
     text          = hex_for_icon( opts.icon ) 
     text         += " " + opts.text if opts.text?
@@ -65,7 +65,6 @@ module MotionAwesome
 
   def button_types
     @button_types ||=
-      Map( custom:      UIButtonTypeCustom,
-           rounded:     UIButtonTypeRoundedRect )
+      MotionMap::Map[custom: UIButtonTypeCustom, rounded: UIButtonTypeRoundedRect]
   end 
 end

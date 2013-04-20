@@ -80,14 +80,14 @@ describe MotionAwesome do
           attrs['NSFont'].familyName.should == 'FontAwesome'
         }
       )
-#       attrs.enumerateAttributesInRange( (2..attrs.string.size-1), 
-#         options:NSAttributedStringEnumerationReverse, 
-#         usingBlock:->(attrs, range, stop) {
-#           # attrs['NSColor'].should           == UIColor.greenColor
-#           # attrs['NSFont'].familyName.should == 'Copperplate'
-#           # attrs['NSFont'].pointSize.should  == 40
-#         }
-      )      
+      # attrs.enumerateAttributesInRange( (2..attrs.string.size-1), 
+      #   options:NSAttributedStringEnumerationReverse, 
+      #   usingBlock:->(attrs, range, stop) {
+      #     # attrs['NSColor'].should           == UIColor.greenColor
+      #     # attrs['NSFont'].familyName.should == 'Copperplate'
+      #     # attrs['NSFont'].pointSize.should  == 40
+      #   }
+      # )      
     end    
   end
 end

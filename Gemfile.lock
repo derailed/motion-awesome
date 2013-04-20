@@ -29,7 +29,7 @@ GEM
     json (1.7.7)
     motion-cocoapods (1.2.2)
       cocoapods (>= 0.14.0)
-    motion-map (0.0.1)
+    motion-map (0.0.3)
     motion-stump (0.2.1)
     multi_json (1.7.2)
     multipart-post (1.2.0)
