@@ -23,7 +23,7 @@ gem install motion-awesome
 
 ## Issues?  Try this!
 
-If you are adding motino-awesome to an existing project, you may run into a common issue with RubyMotion where the added font
+If you are adding motion-awesome to an existing project, you may run into a common issue with RubyMotion where the added font
 file is not copied from the resources.  To fix this simply run a `rake clean` and then try again.
 
 ## Dependencies
