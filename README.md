@@ -21,14 +21,15 @@ Following on that lead, MotionAwesome brings similar awesomeness in the RubyMoti
 gem install motion-awesome
 ```
 
-## Issues?  Try this!
-
-If you are adding motion-awesome to an existing project, you may run into a common issue with RubyMotion where the added font
-file is not copied from the resources.  To fix this simply run a `rake clean` and then try again.
-
 ## Dependencies
 
 - motion-map [https://github.com/derailed/motion-map]
+
+## Issues?  Try this!
+
+If you are adding motion-awesome to an existing project, you may run into a common issue with 
+RubyMotion where the added font file is not copied from the resources.  
+To fix this simply run a `rake clean` and then try again.
 
 ## Usage
 
@@ -49,11 +50,9 @@ end
 ### Creating awesome buttons
 
 ```ruby
-class WannaBeCoolController < XXXController
-  include MotionAwesome
-  
+class WannaBeCoolController < XXXController  
   def viewDidLoad
-    button( :legal, size: 40, text:%q{Hit me!} ) do |button|
+    MotionAwesome.button( :legal, size: 40, text:%q{Hit me!} ) do |button|
       button.titleLabel.textColor = 0xFB3223.uicolor
       button.titleLabel.font      = UIFont.fontWithName( 'GillSans', size:30 )
       button.addTarget( self,
