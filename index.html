@@ -50,7 +50,13 @@ Following on that lead, MotionAwesome brings similar awesomeness in the RubyMoti
 
 <ul>
 <li>motion-map [<a href="https://github.com/derailed/motion-map">https://github.com/derailed/motion-map</a>]</li>
-</ul><h2>Usage</h2>
+</ul><h2>Issues?  Try this!</h2>
+
+<p>If you are adding motion-awesome to an existing project, you may run into a common issue with 
+RubyMotion where the added font file is not copied from the resources.<br>
+To fix this simply run a <code>rake clean</code> and then try again.</p>
+
+<h2>Usage</h2>
 
 <h3>Creating awesome labels</h3>
 
@@ -67,11 +73,9 @@ Following on that lead, MotionAwesome brings similar awesomeness in the RubyMoti
 
 <h3>Creating awesome buttons</h3>
 
-<div class="highlight"><pre><span class="k">class</span> <span class="nc">WannaBeCoolController</span> <span class="o">&lt;</span> <span class="no">XXXController</span>
-  <span class="kp">include</span> <span class="no">MotionAwesome</span>
-
+<div class="highlight"><pre><span class="k">class</span> <span class="nc">WannaBeCoolController</span> <span class="o">&lt;</span> <span class="no">XXXController</span>  
   <span class="k">def</span> <span class="nf">viewDidLoad</span>
-    <span class="n">button</span><span class="p">(</span> <span class="ss">:legal</span><span class="p">,</span> <span class="ss">size</span><span class="p">:</span> <span class="mi">40</span><span class="p">,</span> <span class="ss">text</span><span class="p">:</span><span class="sx">%q{Hit me!}</span> <span class="p">)</span> <span class="k">do</span> <span class="o">|</span><span class="n">button</span><span class="o">|</span>
+    <span class="no">MotionAwesome</span><span class="o">.</span><span class="n">button</span><span class="p">(</span> <span class="ss">:legal</span><span class="p">,</span> <span class="ss">size</span><span class="p">:</span> <span class="mi">40</span><span class="p">,</span> <span class="ss">text</span><span class="p">:</span><span class="sx">%q{Hit me!}</span> <span class="p">)</span> <span class="k">do</span> <span class="o">|</span><span class="n">button</span><span class="o">|</span>
       <span class="n">button</span><span class="o">.</span><span class="n">titleLabel</span><span class="o">.</span><span class="n">textColor</span> <span class="o">=</span> <span class="mh">0xFB3223</span><span class="o">.</span><span class="n">uicolor</span>
       <span class="n">button</span><span class="o">.</span><span class="n">titleLabel</span><span class="o">.</span><span class="n">font</span>      <span class="o">=</span> <span class="no">UIFont</span><span class="o">.</span><span class="n">fontWithName</span><span class="p">(</span> <span class="s1">'GillSans'</span><span class="p">,</span> <span class="ss">size</span><span class="p">:</span><span class="mi">30</span> <span class="p">)</span>
       <span class="n">button</span><span class="o">.</span><span class="n">addTarget</span><span class="p">(</span> <span class="nb">self</span><span class="p">,</span>
@@ -152,6 +156,12 @@ just want to send some good vibes...</p>
 
 <ul>
 <li>Mo' spring cleaning</li>
+</ul>
+</li>
+<li>0.0.4:
+
+<ul>
+<li>Additional clean up</li>
 </ul>
 </li>
 </ul>
