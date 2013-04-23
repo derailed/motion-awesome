@@ -21,6 +21,11 @@ Following on that lead, MotionAwesome brings similar awesomeness in the RubyMoti
 gem install motion-awesome
 ```
 
+## Issues?  Try this!
+
+If you are adding motino-awesome to an existing project, you may run into a common issue with RubyMotion where the added font
+file is not copied from the resources.  To fix this simply run a `rake clean` and then try again.
+
 ## Dependencies
 
 - motion-map [https://github.com/derailed/motion-map]
