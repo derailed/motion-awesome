@@ -130,3 +130,6 @@ MotionAwesome is released under the [MIT](http://opensource.org/licenses/MIT) li
     + Mo' spring cleaning
   + 0.0.4:
     + Additional clean up
+  + 0.0.5:
+    + Upgrade to RM 2.0
+    + Upgrade to FontAwesome 3.1.1 - 302 icons. Yeah!

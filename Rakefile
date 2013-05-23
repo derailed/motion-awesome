@@ -1,5 +1,5 @@
 $:.unshift('/Library/RubyMotion/lib')
-require 'motion/project'
+require 'motion/project/template/ios'
 require './lib/motion-awesome'
 require 'sugarcube-gestures'
 
