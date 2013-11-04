@@ -59,6 +59,7 @@ class WannaBeCoolController < XXXController
                         action: "cb:",
                         forControlEvents: UIControlEventTouchUpInside )
       self.view.addSubview( button )
+    end
   end
 end
 ```
