@@ -28,39 +28,49 @@
 
     <div class="container">
       <section id="main_content">
-        <p><img src="http://derailed.github.io/motion-awesome/assets/d.png" alt="MotionAwesome Screenshots"></p>
+        <h1>
+<a name="motionawesome---as-if-more-awesomeness-was-needed" class="anchor" href="#motionawesome---as-if-more-awesomeness-was-needed"><span class="octicon octicon-link"></span></a>MotionAwesome - as if more awesomeness was needed...</h1>
 
-<p>FontAwesome (<a href="http://fortawesome.github.io/Font-Awesome">http://fortawesome.github.io/Font-Awesome</a>) is a really cool way to bring in some 
-low cost bang! to your web applications. 
-Following on that lead, MotionAwesome brings similar awesomeness in the RubyMotion world...</p>
+<p><img src="http://derailed.github.io/motion-awesome/assets/d.png" alt="MotionAwesome Screenshots"></p>
 
-<h2>For the star-gizzards ;-)</h2>
+<p>FontAwesome (<a href="http://fortawesome.github.io/Font-Awesome">http://fortawesome.github.io/Font-Awesome</a>) is a really cool way to bring in some
+low cost bang! to your web applications.
+Following on that lead, MotionAwesome brings similar awesomeness to the IOS world...</p>
+
+<h2>
+<a name="for-the-star-gizzards--" class="anchor" href="#for-the-star-gizzards--"><span class="octicon octicon-link"></span></a>For the star-gizzards ;-)</h2>
 
 <pre><code>&gt; git clone https://github.com/derailed/motion-awesome.git
 &gt; cd motion-awesome
 &gt; rake
 </code></pre>
 
-<h2>Installation</h2>
+<h2>
+<a name="installation" class="anchor" href="#installation"><span class="octicon octicon-link"></span></a>Installation</h2>
 
 <pre><code>gem install motion-awesome
 </code></pre>
 
-<h2>Dependencies</h2>
+<h2>
+<a name="dependencies" class="anchor" href="#dependencies"><span class="octicon octicon-link"></span></a>Dependencies</h2>
 
 <ul>
 <li>motion-map [<a href="https://github.com/derailed/motion-map">https://github.com/derailed/motion-map</a>]</li>
-</ul><h2>Issues?  Try this!</h2>
+</ul><h2>
+<a name="issues--try-this" class="anchor" href="#issues--try-this"><span class="octicon octicon-link"></span></a>Issues?  Try this!</h2>
 
-<p>If you are adding motion-awesome to an existing project, you may run into a common issue with 
-RubyMotion where the added font file is not copied from the resources.<br>
+<p>If you are adding motion-awesome to an existing project, 
+you may run into a common issue with RubyMotion where the added font file 
+is not copied from the resources.
 To fix this simply run a <code>rake clean</code> and then try again.</p>
 
-<h2>Usage</h2>
+<h2>
+<a name="usage" class="anchor" href="#usage"><span class="octicon octicon-link"></span></a>Usage</h2>
 
-<h3>Creating awesome labels</h3>
+<h3>
+<a name="creating-awesome-labels" class="anchor" href="#creating-awesome-labels"><span class="octicon octicon-link"></span></a>Creating awesome labels</h3>
 
-<div class="highlight"><pre><span class="k">class</span> <span class="nc">WannaBeCoolController</span> <span class="o">&lt;</span> <span class="no">XXXController</span>
+<div class="highlight highlight-ruby"><pre><span class="k">class</span> <span class="nc">WannaBeCoolController</span> <span class="o">&lt;</span> <span class="no">XXXController</span>
   <span class="kp">include</span> <span class="no">MotionAwesome</span>
 
   <span class="k">def</span> <span class="nf">viewDidLoad</span>
@@ -71,9 +81,10 @@ To fix this simply run a <code>rake clean</code> and then try again.</p>
 <span class="k">end</span>
 </pre></div>
 
-<h3>Creating awesome buttons</h3>
+<h3>
+<a name="creating-awesome-buttons" class="anchor" href="#creating-awesome-buttons"><span class="octicon octicon-link"></span></a>Creating awesome buttons</h3>
 
-<div class="highlight"><pre><span class="k">class</span> <span class="nc">WannaBeCoolController</span> <span class="o">&lt;</span> <span class="no">XXXController</span>  
+<div class="highlight highlight-ruby"><pre><span class="k">class</span> <span class="nc">WannaBeCoolController</span> <span class="o">&lt;</span> <span class="no">XXXController</span>
   <span class="k">def</span> <span class="nf">viewDidLoad</span>
     <span class="no">MotionAwesome</span><span class="o">.</span><span class="n">button</span><span class="p">(</span> <span class="ss">:legal</span><span class="p">,</span> <span class="ss">size</span><span class="p">:</span> <span class="mi">40</span><span class="p">,</span> <span class="ss">text</span><span class="p">:</span><span class="sx">%q{Hit me!}</span> <span class="p">)</span> <span class="k">do</span> <span class="o">|</span><span class="n">button</span><span class="o">|</span>
       <span class="n">button</span><span class="o">.</span><span class="n">titleLabel</span><span class="o">.</span><span class="n">textColor</span> <span class="o">=</span> <span class="mh">0xFB3223</span><span class="o">.</span><span class="n">uicolor</span>
@@ -82,13 +93,16 @@ To fix this simply run a <code>rake clean</code> and then try again.</p>
                         <span class="ss">action</span><span class="p">:</span> <span class="s2">"cb:"</span><span class="p">,</span>
                         <span class="ss">forControlEvents</span><span class="p">:</span> <span class="no">UIControlEventTouchUpInside</span> <span class="p">)</span>
       <span class="nb">self</span><span class="o">.</span><span class="n">view</span><span class="o">.</span><span class="n">addSubview</span><span class="p">(</span> <span class="n">button</span> <span class="p">)</span>
+    <span class="k">end</span>
   <span class="k">end</span>
 <span class="k">end</span>
 </pre></div>
 
-<h2>Settings</h2>
+<h2>
+<a name="settings" class="anchor" href="#settings"><span class="octicon octicon-link"></span></a>Settings</h2>
 
-<h3>What's my name?</h3>
+<h3>
+<a name="whats-my-name" class="anchor" href="#whats-my-name"><span class="octicon octicon-link"></span></a>What's my name?</h3>
 
 <p>With MotionAwesome you have access to all the latest icons available on the FontAwesome site.</p>
 
@@ -96,18 +110,19 @@ To fix this simply run a <code>rake clean</code> and then try again.</p>
 sub out the '-' with '_'. Simple!</p>
 
 <pre><code>FontAwesome     =&gt; MotionAwesome
-icon-flag       =&gt; :flag
-icon-star-empty =&gt; :star_empty
+fa-flag         =&gt; :flag
+fa-star-o       =&gt; :star_o
 </code></pre>
 
-<h3>Options</h3>
+<h3>
+<a name="options" class="anchor" href="#options"><span class="octicon octicon-link"></span></a>Options</h3>
 
-<p>Awesomization is currently in effect for UILabel and UIButton. </p>
+<p>Awesomization is currently in effect for UILabel and UIButton.</p>
 
 <p>The method signatures following this strategy:</p>
 
-<div class="highlight"><pre> <span class="n">awesome_label</span>  <span class="o">=</span> <span class="n">label</span><span class="p">(</span> <span class="ss">:icon_name</span><span class="p">,</span> <span class="n">opts</span> <span class="p">)</span> <span class="k">do</span> <span class="p">{</span><span class="o">|</span><span class="n">comp</span><span class="o">|</span> <span class="o">.</span><span class="n">.</span><span class="o">.</span> <span class="p">}</span>
- <span class="n">awesome_button</span> <span class="o">=</span> <span class="n">button</span><span class="p">(</span> <span class="ss">:icon_name</span><span class="p">,</span> <span class="n">opts</span> <span class="p">)</span> <span class="k">do</span> <span class="p">{</span><span class="o">|</span><span class="n">comp</span><span class="o">|</span> <span class="o">.</span><span class="n">.</span><span class="o">.</span> <span class="p">}</span> 
+<div class="highlight highlight-ruby"><pre> <span class="n">awesome_label</span>  <span class="o">=</span> <span class="n">label</span><span class="p">(</span> <span class="ss">:icon_name</span><span class="p">,</span> <span class="n">opts</span> <span class="p">)</span> <span class="k">do</span> <span class="p">{</span><span class="o">|</span><span class="n">comp</span><span class="o">|</span> <span class="o">.</span><span class="n">.</span><span class="o">.</span> <span class="p">}</span>
+ <span class="n">awesome_button</span> <span class="o">=</span> <span class="n">button</span><span class="p">(</span> <span class="ss">:icon_name</span><span class="p">,</span> <span class="n">opts</span> <span class="p">)</span> <span class="k">do</span> <span class="p">{</span><span class="o">|</span><span class="n">comp</span><span class="o">|</span> <span class="o">.</span><span class="n">.</span><span class="o">.</span> <span class="p">}</span>
 </pre></div>
 
 <p>Options are as follows:</p>
@@ -115,14 +130,16 @@ icon-star-empty =&gt; :star_empty
 <ul>
 <li>size:  specifies the size of the icon. To size the text portion you can set the font of your liking.
      If no size is specified the icon will be sized according to the active font size.</li>
-<li>type:  :custom | :rounded. Specifies the type of UIButton to create -- For button only! - </li>
+<li>type:  :custom | :rounded. Specifies the type of UIButton to create -- For button only! -</li>
 <li>text:  prepends some text to your decorated label or button.</li>
 <li>color: sets the icon color. If this is not set the icon color will match the text color if specified.</li>
-</ul><h2>ATTA BOY!</h2>
+</ul><h2>
+<a name="atta-boy" class="anchor" href="#atta-boy"><span class="octicon octicon-link"></span></a>ATTA BOY!</h2>
 
 <p>This gem was inspired by Hiroshi Horiki(<a href="https://github.com/pchw" class="user-mention">@pchw</a>) <a href="https://github.com/pchw/fontawesome">https://github.com/pchw/fontawesome</a></p>
 
-<h2>Contact</h2>
+<h2>
+<a name="contact" class="anchor" href="#contact"><span class="octicon octicon-link"></span></a>Contact</h2>
 
 <p>Fernand Galiana</p>
 
@@ -133,11 +150,13 @@ icon-star-empty =&gt; :star_empty
 </ul><p>Still work in progress. So please feel to fork or contact me if you run into issues or
 just want to send some good vibes...</p>
 
-<h2>License</h2>
+<h2>
+<a name="license" class="anchor" href="#license"><span class="octicon octicon-link"></span></a>License</h2>
 
 <p>MotionAwesome is released under the <a href="http://opensource.org/licenses/MIT">MIT</a> license.</p>
 
-<h2>History</h2>
+<h2>
+<a name="history" class="anchor" href="#history"><span class="octicon octicon-link"></span></a>History</h2>
 
 <ul>
 <li>0.0.1:
@@ -169,6 +188,13 @@ just want to send some good vibes...</p>
 <ul>
 <li>Upgrade to RM 2.0</li>
 <li>Upgrade to FontAwesome 3.1.1 - 302 icons. Yeah!</li>
+</ul>
+</li>
+<li>0.0.6:
+
+<ul>
+<li>Upgrade to RM 2.16</li>
+<li>Upgrade to FontAwesome 4.0.3</li>
 </ul>
 </li>
 </ul>
