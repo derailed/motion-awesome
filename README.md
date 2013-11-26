@@ -21,6 +21,23 @@ Following on that lead, MotionAwesome brings similar awesomeness to the IOS worl
 gem install motion-awesome
 ```
 
+If you are using Bundler in your Rubymotion, you can add the gem to your Gemfile and run `bundle install`:
+
+```
+gem 'motion-awesome'
+```
+
+The FontAwesome font file will automatically be copied to your resources folder. Make sure to include the font in your Rakefile:
+
+```ruby
+# ...
+Motion::Project::App.setup do |app|
+  # ...
+
+  app.fonts = ['fontawesome-webfont.ttf']
+end
+```
+
 ## Dependencies
 
 - motion-map [https://github.com/derailed/motion-map]
