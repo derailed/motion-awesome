@@ -4,7 +4,7 @@
 
 FontAwesome (http://fortawesome.github.io/Font-Awesome) is a really cool way to bring in some
 low cost bang! to your web applications.
-Following on that lead, MotionAwesome brings similar awesomeness in the RubyMotion world...
+Following on that lead, MotionAwesome brings similar awesomeness to the IOS world...
 
 
 ## For the star-gizzards ;-)
