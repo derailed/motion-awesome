@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'motion-map'
-gem 'sugarcube'
+gem 'sugarcube', '0.20.21'
 gem 'bubble-wrap'
 gem 'motion-cocoapods'
 

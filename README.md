@@ -2,11 +2,11 @@
 
 ![MotionAwesome Screenshots](http://derailed.github.io/motion-awesome/assets/d.png)
 
-FontAwesome (http://fortawesome.github.io/Font-Awesome) is a really cool way to bring in some 
-low cost bang! to your web applications. 
+FontAwesome (http://fortawesome.github.io/Font-Awesome) is a really cool way to bring in some
+low cost bang! to your web applications.
 Following on that lead, MotionAwesome brings similar awesomeness in the RubyMotion world...
- 
- 
+
+
 ## For the star-gizzards ;-)
 
 ```
@@ -27,8 +27,9 @@ gem install motion-awesome
 
 ## Issues?  Try this!
 
-If you are adding motion-awesome to an existing project, you may run into a common issue with 
-RubyMotion where the added font file is not copied from the resources.  
+If you are adding motion-awesome to an existing project, 
+you may run into a common issue with RubyMotion where the added font file 
+is not copied from the resources.
 To fix this simply run a `rake clean` and then try again.
 
 ## Usage
@@ -38,7 +39,7 @@ To fix this simply run a `rake clean` and then try again.
 ```ruby
 class WannaBeCoolController < XXXController
   include MotionAwesome
-  
+
   def viewDidLoad
     label( :flag, size: 200 ) do |label|
       self.view.addSubview(label)
@@ -50,7 +51,7 @@ end
 ### Creating awesome buttons
 
 ```ruby
-class WannaBeCoolController < XXXController  
+class WannaBeCoolController < XXXController
   def viewDidLoad
     MotionAwesome.button( :legal, size: 40, text:%q{Hit me!} ) do |button|
       button.titleLabel.textColor = 0xFB3223.uicolor
@@ -81,20 +82,20 @@ icon-star-empty => :star_empty
 
 ### Options
 
-Awesomization is currently in effect for UILabel and UIButton. 
+Awesomization is currently in effect for UILabel and UIButton.
 
 The method signatures following this strategy:
 
 ```ruby
  awesome_label  = label( :icon_name, opts ) do {|comp| ... }
- awesome_button = button( :icon_name, opts ) do {|comp| ... } 
+ awesome_button = button( :icon_name, opts ) do {|comp| ... }
 ```
 
 Options are as follows:
 
 + size:  specifies the size of the icon. To size the text portion you can set the font of your liking.
          If no size is specified the icon will be sized according to the active font size.
-+ type:  :custom | :rounded. Specifies the type of UIButton to create -- For button only! - 
++ type:  :custom | :rounded. Specifies the type of UIButton to create -- For button only! -
 + text:  prepends some text to your decorated label or button.
 + color: sets the icon color. If this is not set the icon color will match the text color if specified.
 
@@ -133,3 +134,6 @@ MotionAwesome is released under the [MIT](http://opensource.org/licenses/MIT) li
   + 0.0.5:
     + Upgrade to RM 2.0
     + Upgrade to FontAwesome 3.1.1 - 302 icons. Yeah!
+  + 0.0.6:
+    + Upgrade to RM 2.16
+    + Upgrade to FontAwesome 4.0.3
