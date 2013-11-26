@@ -77,8 +77,8 @@ sub out the '-' with '_'. Simple!
 
 ```
 FontAwesome     => MotionAwesome
-icon-flag       => :flag
-icon-star-empty => :star_empty
+fa-flag         => :flag
+fa-star-o       => :star_o
 ```
 
 ### Options
