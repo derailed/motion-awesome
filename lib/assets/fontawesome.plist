@@ -20,6 +20,8 @@
 		<string>0xf13d</string>
 		<key>fa-android</key>
 		<string>0xf17b</string>
+		<key>fa-angellist</key>
+		<string>0xf209</string>
 		<key>fa-angle-double-down</key>
 		<string>0xf103</string>
 		<key>fa-angle-double-left</key>
@@ -40,6 +42,8 @@
 		<string>0xf179</string>
 		<key>fa-archive</key>
 		<string>0xf187</string>
+		<key>fa-area-chart</key>
+		<string>0xf1fe</string>
 		<key>fa-arrow-circle-down</key>
 		<string>0xf0ab</string>
 		<key>fa-arrow-circle-left</key>
@@ -74,6 +78,8 @@
 		<string>0xf07d</string>
 		<key>fa-asterisk</key>
 		<string>0xf069</string>
+		<key>fa-at</key>
+		<string>0xf1fa</string>
 		<key>fa-automobile</key>
 		<string>0xf1b9</string>
 		<key>fa-backward</key>
@@ -82,12 +88,16 @@
 		<string>0xf05e</string>
 		<key>fa-bank</key>
 		<string>0xf19c</string>
+		<key>fa-bar-chart</key>
+		<string>0xf080</string>
 		<key>fa-bar-chart-o</key>
 		<string>0xf080</string>
 		<key>fa-barcode</key>
 		<string>0xf02a</string>
 		<key>fa-bars</key>
 		<string>0xf0c9</string>
+		<key>fa-bed</key>
+		<string>0xf236</string>
 		<key>fa-beer</key>
 		<string>0xf0fc</string>
 		<key>fa-behance</key>
@@ -98,6 +108,16 @@
 		<string>0xf0f3</string>
 		<key>fa-bell-o</key>
 		<string>0xf0a2</string>
+		<key>fa-bell-slash</key>
+		<string>0xf1f6</string>
+		<key>fa-bell-slash-o</key>
+		<string>0xf1f7</string>
+		<key>fa-bicycle</key>
+		<string>0xf206</string>
+		<key>fa-binoculars</key>
+		<string>0xf1e5</string>
+		<key>fa-birthday-cake</key>
+		<string>0xf1fd</string>
 		<key>fa-bitbucket</key>
 		<string>0xf171</string>
 		<key>fa-bitbucket-square</key>
@@ -130,8 +150,14 @@
 		<string>0xf0a1</string>
 		<key>fa-bullseye</key>
 		<string>0xf140</string>
+		<key>fa-bus</key>
+		<string>0xf207</string>
+		<key>fa-buysellads</key>
+		<string>0xf20d</string>
 		<key>fa-cab</key>
 		<string>0xf1ba</string>
+		<key>fa-calculator</key>
+		<string>0xf1ec</string>
 		<key>fa-calendar</key>
 		<string>0xf073</string>
 		<key>fa-calendar-o</key>
@@ -158,6 +184,24 @@
 		<string>0xf151</string>
 		<key>fa-caret-up</key>
 		<string>0xf0d8</string>
+		<key>fa-cart-arrow-down</key>
+		<string>0xf218</string>
+		<key>fa-cart-plus</key>
+		<string>0xf217</string>
+		<key>fa-cc</key>
+		<string>0xf20a</string>
+		<key>fa-cc-amex</key>
+		<string>0xf1f3</string>
+		<key>fa-cc-discover</key>
+		<string>0xf1f2</string>
+		<key>fa-cc-mastercard</key>
+		<string>0xf1f1</string>
+		<key>fa-cc-paypal</key>
+		<string>0xf1f4</string>
+		<key>fa-cc-stripe</key>
+		<string>0xf1f5</string>
+		<key>fa-cc-visa</key>
+		<string>0xf1f0</string>
 		<key>fa-certificate</key>
 		<string>0xf0a3</string>
 		<key>fa-chain</key>
@@ -204,6 +248,8 @@
 		<string>0xf0ea</string>
 		<key>fa-clock-o</key>
 		<string>0xf017</string>
+		<key>fa-close</key>
+		<string>0xf00d</string>
 		<key>fa-cloud</key>
 		<string>0xf0c2</string>
 		<key>fa-cloud-download</key>
@@ -238,8 +284,12 @@
 		<string>0xf14e</string>
 		<key>fa-compress</key>
 		<string>0xf066</string>
+		<key>fa-connectdevelop</key>
+		<string>0xf20e</string>
 		<key>fa-copy</key>
 		<string>0xf0c5</string>
+		<key>fa-copyright</key>
+		<string>0xf1f9</string>
 		<key>fa-credit-card</key>
 		<string>0xf09d</string>
 		<key>fa-crop</key>
@@ -258,6 +308,8 @@
 		<string>0xf0f5</string>
 		<key>fa-dashboard</key>
 		<string>0xf0e4</string>
+		<key>fa-dashcube</key>
+		<string>0xf210</string>
 		<key>fa-database</key>
 		<string>0xf1c0</string>
 		<key>fa-dedent</key>
@@ -268,6 +320,8 @@
 		<string>0xf108</string>
 		<key>fa-deviantart</key>
 		<string>0xf1bd</string>
+		<key>fa-diamond</key>
+		<string>0xf219</string>
 		<key>fa-digg</key>
 		<string>0xf1a6</string>
 		<key>fa-dollar</key>
@@ -322,8 +376,14 @@
 		<string>0xf06e</string>
 		<key>fa-eye-slash</key>
 		<string>0xf070</string>
+		<key>fa-eyedropper</key>
+		<string>0xf1fb</string>
 		<key>fa-facebook</key>
 		<string>0xf09a</string>
+		<key>fa-facebook-f</key>
+		<string>0xf09a</string>
+		<key>fa-facebook-official</key>
+		<string>0xf230</string>
 		<key>fa-facebook-square</key>
 		<string>0xf082</string>
 		<key>fa-fast-backward</key>
@@ -406,12 +466,16 @@
 		<string>0xf115</string>
 		<key>fa-font</key>
 		<string>0xf031</string>
+		<key>fa-forumbee</key>
+		<string>0xf211</string>
 		<key>fa-forward</key>
 		<string>0xf04e</string>
 		<key>fa-foursquare</key>
 		<string>0xf180</string>
 		<key>fa-frown-o</key>
 		<string>0xf119</string>
+		<key>fa-futbol-o</key>
+		<string>0xf1e3</string>
 		<key>fa-gamepad</key>
 		<string>0xf11b</string>
 		<key>fa-gavel</key>
@@ -424,6 +488,8 @@
 		<string>0xf013</string>
 		<key>fa-gears</key>
 		<string>0xf085</string>
+		<key>fa-genderless</key>
+		<string>0xf1db</string>
 		<key>fa-gift</key>
 		<string>0xf06b</string>
 		<key>fa-git</key>
@@ -448,8 +514,12 @@
 		<string>0xf0d5</string>
 		<key>fa-google-plus-square</key>
 		<string>0xf0d4</string>
+		<key>fa-google-wallet</key>
+		<string>0xf1ee</string>
 		<key>fa-graduation-cap</key>
 		<string>0xf19d</string>
+		<key>fa-gratipay</key>
+		<string>0xf184</string>
 		<key>fa-group</key>
 		<string>0xf0c0</string>
 		<key>fa-h-square</key>
@@ -474,14 +544,20 @@
 		<string>0xf004</string>
 		<key>fa-heart-o</key>
 		<string>0xf08a</string>
+		<key>fa-heartbeat</key>
+		<string>0xf21e</string>
 		<key>fa-history</key>
 		<string>0xf1da</string>
 		<key>fa-home</key>
 		<string>0xf015</string>
 		<key>fa-hospital-o</key>
 		<string>0xf0f8</string>
+		<key>fa-hotel</key>
+		<string>0xf236</string>
 		<key>fa-html5</key>
 		<string>0xf13b</string>
+		<key>fa-ils</key>
+		<string>0xf20b</string>
 		<key>fa-image</key>
 		<string>0xf03e</string>
 		<key>fa-inbox</key>
@@ -498,6 +574,8 @@
 		<string>0xf16d</string>
 		<key>fa-institution</key>
 		<string>0xf19c</string>
+		<key>fa-ioxhost</key>
+		<string>0xf208</string>
 		<key>fa-italic</key>
 		<string>0xf033</string>
 		<key>fa-joomla</key>
@@ -516,8 +594,14 @@
 		<string>0xf1ab</string>
 		<key>fa-laptop</key>
 		<string>0xf109</string>
+		<key>fa-lastfm</key>
+		<string>0xf202</string>
+		<key>fa-lastfm-square</key>
+		<string>0xf203</string>
 		<key>fa-leaf</key>
 		<string>0xf06c</string>
+		<key>fa-leanpub</key>
+		<string>0xf212</string>
 		<key>fa-legal</key>
 		<string>0xf0e3</string>
 		<key>fa-lemon-o</key>
@@ -528,12 +612,16 @@
 		<string>0xf148</string>
 		<key>fa-life-bouy</key>
 		<string>0xf1cd</string>
+		<key>fa-life-buoy</key>
+		<string>0xf1cd</string>
 		<key>fa-life-ring</key>
 		<string>0xf1cd</string>
 		<key>fa-life-saver</key>
 		<string>0xf1cd</string>
 		<key>fa-lightbulb-o</key>
 		<string>0xf0eb</string>
+		<key>fa-line-chart</key>
+		<string>0xf201</string>
 		<key>fa-link</key>
 		<string>0xf0c1</string>
 		<key>fa-linkedin</key>
@@ -576,12 +664,28 @@
 		<string>0xf183</string>
 		<key>fa-map-marker</key>
 		<string>0xf041</string>
+		<key>fa-mars</key>
+		<string>0xf222</string>
+		<key>fa-mars-double</key>
+		<string>0xf227</string>
+		<key>fa-mars-stroke</key>
+		<string>0xf229</string>
+		<key>fa-mars-stroke-h</key>
+		<string>0xf22b</string>
+		<key>fa-mars-stroke-v</key>
+		<string>0xf22a</string>
 		<key>fa-maxcdn</key>
 		<string>0xf136</string>
+		<key>fa-meanpath</key>
+		<string>0xf20c</string>
+		<key>fa-medium</key>
+		<string>0xf23a</string>
 		<key>fa-medkit</key>
 		<string>0xf0fa</string>
 		<key>fa-meh-o</key>
 		<string>0xf11a</string>
+		<key>fa-mercury</key>
+		<string>0xf223</string>
 		<key>fa-microphone</key>
 		<string>0xf130</string>
 		<key>fa-microphone-slash</key>
@@ -604,16 +708,24 @@
 		<string>0xf186</string>
 		<key>fa-mortar-board</key>
 		<string>0xf19d</string>
+		<key>fa-motorcycle</key>
+		<string>0xf21c</string>
 		<key>fa-music</key>
 		<string>0xf001</string>
 		<key>fa-navicon</key>
 		<string>0xf0c9</string>
+		<key>fa-neuter</key>
+		<string>0xf22c</string>
+		<key>fa-newspaper-o</key>
+		<string>0xf1ea</string>
 		<key>fa-openid</key>
 		<string>0xf19b</string>
 		<key>fa-outdent</key>
 		<string>0xf03b</string>
 		<key>fa-pagelines</key>
 		<string>0xf18c</string>
+		<key>fa-paint-brush</key>
+		<string>0xf1fc</string>
 		<key>fa-paper-plane</key>
 		<string>0xf1d8</string>
 		<key>fa-paper-plane-o</key>
@@ -628,6 +740,8 @@
 		<string>0xf04c</string>
 		<key>fa-paw</key>
 		<string>0xf1b0</string>
+		<key>fa-paypal</key>
+		<string>0xf1ed</string>
 		<key>fa-pencil</key>
 		<string>0xf040</string>
 		<key>fa-pencil-square</key>
@@ -642,14 +756,16 @@
 		<string>0xf03e</string>
 		<key>fa-picture-o</key>
 		<string>0xf03e</string>
+		<key>fa-pie-chart</key>
+		<string>0xf200</string>
 		<key>fa-pied-piper</key>
 		<string>0xf1a7</string>
 		<key>fa-pied-piper-alt</key>
 		<string>0xf1a8</string>
-		<key>fa-pied-piper-square</key>
-		<string>0xf1a7</string>
 		<key>fa-pinterest</key>
 		<string>0xf0d2</string>
+		<key>fa-pinterest-p</key>
+		<string>0xf231</string>
 		<key>fa-pinterest-square</key>
 		<string>0xf0d3</string>
 		<key>fa-plane</key>
@@ -660,6 +776,8 @@
 		<string>0xf144</string>
 		<key>fa-play-circle-o</key>
 		<string>0xf01d</string>
+		<key>fa-plug</key>
+		<string>0xf1e6</string>
 		<key>fa-plus</key>
 		<string>0xf067</string>
 		<key>fa-plus-circle</key>
@@ -700,6 +818,8 @@
 		<string>0xf1a2</string>
 		<key>fa-refresh</key>
 		<string>0xf021</string>
+		<key>fa-remove</key>
+		<string>0xf00d</string>
 		<key>fa-renren</key>
 		<string>0xf18b</string>
 		<key>fa-reorder</key>
@@ -744,10 +864,14 @@
 		<string>0xf010</string>
 		<key>fa-search-plus</key>
 		<string>0xf00e</string>
+		<key>fa-sellsy</key>
+		<string>0xf213</string>
 		<key>fa-send</key>
 		<string>0xf1d8</string>
 		<key>fa-send-o</key>
 		<string>0xf1d9</string>
+		<key>fa-server</key>
+		<string>0xf233</string>
 		<key>fa-share</key>
 		<string>0xf064</string>
 		<key>fa-share-alt</key>
@@ -758,8 +882,16 @@
 		<string>0xf14d</string>
 		<key>fa-share-square-o</key>
 		<string>0xf045</string>
+		<key>fa-shekel</key>
+		<string>0xf20b</string>
+		<key>fa-sheqel</key>
+		<string>0xf20b</string>
 		<key>fa-shield</key>
 		<string>0xf132</string>
+		<key>fa-ship</key>
+		<string>0xf21a</string>
+		<key>fa-shirtsinbulk</key>
+		<string>0xf214</string>
 		<key>fa-shopping-cart</key>
 		<string>0xf07a</string>
 		<key>fa-sign-in</key>
@@ -768,16 +900,24 @@
 		<string>0xf08b</string>
 		<key>fa-signal</key>
 		<string>0xf012</string>
+		<key>fa-simplybuilt</key>
+		<string>0xf215</string>
 		<key>fa-sitemap</key>
 		<string>0xf0e8</string>
+		<key>fa-skyatlas</key>
+		<string>0xf216</string>
 		<key>fa-skype</key>
 		<string>0xf17e</string>
 		<key>fa-slack</key>
 		<string>0xf198</string>
 		<key>fa-sliders</key>
 		<string>0xf1de</string>
+		<key>fa-slideshare</key>
+		<string>0xf1e7</string>
 		<key>fa-smile-o</key>
 		<string>0xf118</string>
+		<key>fa-soccer-ball-o</key>
+		<string>0xf1e3</string>
 		<key>fa-sort</key>
 		<string>0xf0dc</string>
 		<key>fa-sort-alpha-asc</key>
@@ -842,6 +982,8 @@
 		<string>0xf0f1</string>
 		<key>fa-stop</key>
 		<string>0xf04d</string>
+		<key>fa-street-view</key>
+		<string>0xf21d</string>
 		<key>fa-strikethrough</key>
 		<string>0xf0cc</string>
 		<key>fa-stumbleupon</key>
@@ -850,6 +992,8 @@
 		<string>0xf1a3</string>
 		<key>fa-subscript</key>
 		<string>0xf12c</string>
+		<key>fa-subway</key>
+		<string>0xf239</string>
 		<key>fa-suitcase</key>
 		<string>0xf0f2</string>
 		<key>fa-sun-o</key>
@@ -910,10 +1054,22 @@
 		<string>0xf150</string>
 		<key>fa-toggle-left</key>
 		<string>0xf191</string>
+		<key>fa-toggle-off</key>
+		<string>0xf204</string>
+		<key>fa-toggle-on</key>
+		<string>0xf205</string>
 		<key>fa-toggle-right</key>
 		<string>0xf152</string>
 		<key>fa-toggle-up</key>
 		<string>0xf151</string>
+		<key>fa-train</key>
+		<string>0xf238</string>
+		<key>fa-transgender</key>
+		<string>0xf224</string>
+		<key>fa-transgender-alt</key>
+		<string>0xf225</string>
+		<key>fa-trash</key>
+		<string>0xf1f8</string>
 		<key>fa-trash-o</key>
 		<string>0xf014</string>
 		<key>fa-tree</key>
@@ -926,12 +1082,16 @@
 		<string>0xf0d1</string>
 		<key>fa-try</key>
 		<string>0xf195</string>
+		<key>fa-tty</key>
+		<string>0xf1e4</string>
 		<key>fa-tumblr</key>
 		<string>0xf173</string>
 		<key>fa-tumblr-square</key>
 		<string>0xf174</string>
 		<key>fa-turkish-lira</key>
 		<string>0xf195</string>
+		<key>fa-twitch</key>
+		<string>0xf1e8</string>
 		<key>fa-twitter</key>
 		<string>0xf099</string>
 		<key>fa-twitter-square</key>
@@ -960,8 +1120,22 @@
 		<string>0xf007</string>
 		<key>fa-user-md</key>
 		<string>0xf0f0</string>
+		<key>fa-user-plus</key>
+		<string>0xf234</string>
+		<key>fa-user-secret</key>
+		<string>0xf21b</string>
+		<key>fa-user-times</key>
+		<string>0xf235</string>
 		<key>fa-users</key>
 		<string>0xf0c0</string>
+		<key>fa-venus</key>
+		<string>0xf221</string>
+		<key>fa-venus-double</key>
+		<string>0xf226</string>
+		<key>fa-venus-mars</key>
+		<string>0xf228</string>
+		<key>fa-viacoin</key>
+		<string>0xf237</string>
 		<key>fa-video-camera</key>
 		<string>0xf03d</string>
 		<key>fa-vimeo-square</key>
@@ -984,8 +1158,12 @@
 		<string>0xf18a</string>
 		<key>fa-weixin</key>
 		<string>0xf1d7</string>
+		<key>fa-whatsapp</key>
+		<string>0xf232</string>
 		<key>fa-wheelchair</key>
 		<string>0xf193</string>
+		<key>fa-wifi</key>
+		<string>0xf1eb</string>
 		<key>fa-windows</key>
 		<string>0xf17a</string>
 		<key>fa-won</key>
@@ -1000,6 +1178,8 @@
 		<string>0xf169</string>
 		<key>fa-yahoo</key>
 		<string>0xf19e</string>
+		<key>fa-yelp</key>
+		<string>0xf1e9</string>
 		<key>fa-yen</key>
 		<string>0xf157</string>
 		<key>fa-youtube</key>
