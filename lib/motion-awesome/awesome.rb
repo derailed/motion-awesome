@@ -5,7 +5,7 @@ module MotionAwesome
 
   def button( icon, options={}, &block )
     opts = parse_options( icon, options )
-    comp = UIButton.buttonWithType( map_types( opts.type? ? opts.type : nil ) )
+    comp = UIButton.buttonWithType( map_types( opts[:type] ) )
     comp.setAttributedTitle( attributed_text(opts), forState: UIControlStateNormal )
     yield comp if block_given?
     comp
@@ -15,7 +15,7 @@ module MotionAwesome
     opts = parse_options( icon, options )
     comp = UILabel.alloc.initWithFrame( [[0,0],[opts[:size],opts[:size]]] )
     comp.setAttributedText( attributed_text(opts) )
-    comp.awesome_color = opts.color if opts.color?
+    comp.awesome_color = opts[:color] if opts[:color]
     yield comp if block_given?
     comp
   end
@@ -25,7 +25,7 @@ module MotionAwesome
   end
 
   def parse_options( icon, opts )
-    options        =  MotionMap::Map[opts.merge( icon: xform_icon(icon) )]
+    options        = opts.merge( icon: xform_icon(icon) )
     options[:size] = UIFont.systemFontSize unless options[:size]
     options
   end
@@ -35,11 +35,11 @@ module MotionAwesome
   end
 
   def attributed_text( opts )
-    awesome_attrs = MotionMap::Map[NSFontAttributeName, font(opts[:size])]
-    awesome_attrs[NSForegroundColorAttributeName] = opts.color if opts.color?
-    text          = hex_for_icon( opts.icon )
-    text         += " " + opts.text if opts.text?
-    range         = opts.text? ? (0..1) : (0..0)
+    awesome_attrs = {NSFontAttributeName => font(opts[:size])}
+    awesome_attrs[NSForegroundColorAttributeName] = opts[:color] if opts[:color]
+    text          = hex_for_icon( opts[:icon] )
+    text         += " " + opts[:text] if opts[:text]
+    range         = opts[:text] ? (0..1) : (0..0)
     NSMutableAttributedString.alloc.initWithString( text, attributes: nil ).tap do |attrs|
       attrs.setAttributes( awesome_attrs, range:range )
     end
@@ -52,7 +52,7 @@ module MotionAwesome
   end
 
   def map_types( type )
-    button_types.get(type) {UIButtonTypeRoundedRect}
+    button_types[type] || UIButtonTypeRoundedRect
   end
 
   def plist
@@ -64,7 +64,7 @@ module MotionAwesome
   end
 
   def button_types
-    @button_types ||=
-      MotionMap::Map[custom: UIButtonTypeCustom, rounded: UIButtonTypeRoundedRect]
+    @button_types ||= 
+      {custom: UIButtonTypeCustom, rounded: UIButtonTypeRoundedRect}
   end
 end

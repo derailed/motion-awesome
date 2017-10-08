@@ -38,10 +38,6 @@ Motion::Project::App.setup do |app|
 end
 ```
 
-## Dependencies
-
-- motion-map [https://github.com/derailed/motion-map]
-
 ## Issues?  Try this!
 
 If you are adding motion-awesome to an existing project, 

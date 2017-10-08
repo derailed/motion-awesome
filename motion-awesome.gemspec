@@ -17,5 +17,4 @@ Gem::Specification.new do |gem|
   gem.add_development_dependency 'plist'
   gem.add_development_dependency 'css_parser'
 
-  gem.add_dependency 'motion-map'
 end
